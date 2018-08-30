@@ -5,7 +5,7 @@
 
 In comes WebSockets. Websockets allow a long-held single TCP (transmission control protocol) socket connection to be established between the client and server, allowing for for bi-directional, full duplex, messages to be instantly distributed. This is done with minimal overhead resulting in a low latency connection. </p>
  
-<img src="https://cdn-images-1.medium.com/max/1600/1*-p8MCGi33HrXEL5Zf8qDKw.png"></a>
+<img src="https://cdn-images-1.medium.com/max/2000/1*v2XywM5pSK_f5VZyWDMPoQ.gif"></a>
 ### Introduction to Action Cable and WebSockets  ###
 <p> Action Cable seamlessly integrates WebSockets with the rest of the Rails application. It allows for real-time features to be written in Ruby in the same style and form as the rest of the Rails application, while still being performant and scalable. It's a full-stack offering that provides both a client-side JavaScript framework and a server-side Ruby framework. You have access to your full domain model written with Active Record or your ORM of choice.</p>
 
