@@ -13,9 +13,9 @@ In comes WebSockets. Websockets allow a long-held single TCP (transmission contr
 
 ### Key Advantages Of WebSockets Over HTTP Long-Polling ###
 
-* Continuous connection between client and server: data can be sent to the client at any time, even without the client requesting it
-* Full duplex communication: communication can be sent either way at any time during the connection
-* Very low latency: there is limited HTTP overhead (like headers, cookies, etc.) making the speed at which data transfers happen much faster
+* Continuous connection between client and server: data can be sent to the client at any time, even without the client requesting it.
+* Full duplex communication: communication can be sent either way at any time during the connection.
+* Very low latency: there is limited HTTP overhead (like headers, cookies, etc.) making the speed at which data transfers happen much faster.
 
 <img src="https://bamboolab.eu/uploads/picture/chat.gif">
 
