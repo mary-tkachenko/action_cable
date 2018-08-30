@@ -7,3 +7,4 @@ Action Cable seamlessly integrates WebSockets with the rest of the Rails applica
 * <a href="https://guides.rubyonrails.org/action_cable_overview.html#connection-setup"> Rails Guide Action Cable Overview</a>
 * <a href="https://www.youtube.com/watch?v=kJbuZecN1c8"> Rails WebSocket Chat Real Time Tutorial </a>
 * <a href="https://medium.com/front-end-hacking/what-are-websockets-7bf0e2e1af2"> What are WebSockets? </a>
+* <a href="https://www.imaginarycloud.com/blog/websockets-and-action-cable-in-rails-5/"> WebSockets And Action Cable In Rails 5 </a>
