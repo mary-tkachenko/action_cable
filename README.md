@@ -11,7 +11,7 @@ In comes WebSockets. Websockets allow a long-held single TCP (transmission contr
 
 <p>WebSockets are a protocol built on top of TCP. They hold the connection to the server open so that the server can send information to the client, even in the absence of a request from the client. WebSockets allow for bi-directional, "full-duplex" communication between the client and the server by creating a persistent connection between the two.</p>
 
-<img src="https://github.com/mary-tkachenko/action_cable/blob/master/Screenshot%202018-08-30%2012.29.25.png?raw=true" width="400">
+<img src="https://bamboolab.eu/uploads/picture/chat.gif">
 
 ## Helpful Links ##
 * <a href="https://guides.rubyonrails.org/action_cable_overview.html#connection-setup"> Rails Guide Action Cable Overview</a>
