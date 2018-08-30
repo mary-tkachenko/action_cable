@@ -3,7 +3,7 @@
 <p> With HTTP long-polling, the client continually polls the server requesting for new information. The server hold the request open until any new data is available, and responds with the new information once available. In essence, the client is constantly polling the server to see if the database has changed state. As soon as the client receives that new information, it can immediately send another request and the operation is continually repeated.</p>
 <p>This can get very taxing as the loop continues and the backend database grows. With more users pinging the server, this may take even longer. It is very expensive in terms of CPU, bandwidth consumption and storage. Every time a user makes an HTTP request, a bunch of headers and cookie data are transferred to the server. This can add up to a reasonably large amount of data that needs to be transferred, which in turn increases latency. So what’s the fix?
 
-In comes WebSockets. Websockets allow a long-held single TCP (transmission control protocol) socket connection to be established between the client and server, allowing for for bi-directional, full duplex, messages to be instantly distributed. This is done with minimal overhead resulting in a low latency connection. </p>
+In comes WebSockets. Websockets allow a long-held single TCP (transmission control protocol) socket connection to be established between the client and server, allowing for for bi-directional, full duplex, messages to be instantly distributed. This is done with minimal overhead resulting in a low latency connection. </p> 
  
 <img src="https://cdn-images-1.medium.com/max/2000/1*v2XywM5pSK_f5VZyWDMPoQ.gif"></a>
 ### Introduction to Action Cable and WebSockets  ###
